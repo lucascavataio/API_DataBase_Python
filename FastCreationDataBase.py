@@ -11,10 +11,10 @@ varTypeDic = {"CHAR": 255,
   "FLOAT": 4294967295,
   "DATETIME": 0}
 
-HOST="us-east.connect.psdb.cloud"
-USERNAME="86jt6e86860u3dz4dwwm"
-PASSWORD="pscale_pw_znVcFoDnfmlDtZ97yFJnOTozQnzruboKq5mDBOixeHQ"
-DATABASE="westernfpsdatabase"
+HOST=""
+USERNAME=""
+PASSWORD=""
+DATABASE=""
 
 def FastConnection():
   return mysql.connector.connect(
